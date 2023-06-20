@@ -1,0 +1,83 @@
+body{
+    background-color: #0F0F0F;
+    color: white; 
+font-family: 'Roboto', sans-serif;
+}
+#image{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    
+}
+.logo{
+    width: 100px;
+    margin-left: 30px;
+}
+#search-input{
+    height: 30px;
+    width: 70%;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    margin: 0 20px;
+    padding-left: 20px;
+}
+#search-btn{
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 0 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+#search-btn:hover{
+    background-color: rgb(183, 2, 2);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+.card{
+    /* border: 2px solid red; */
+    width: min-content;
+    background-color: #0F0F0F;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#title{
+    font-weight: bold;
+}
+#player{
+
+    /* border: 2px solid rgb(0, 200, 255); */
+    /* height: 400px; */
+}
+#container{
+    /* border: 2px solid green; */
+    display: grid;
+    
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px 10px;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.title{
+    font-size: 14px;
+    font-weight: bold;
+}
+.channelId, .viewCount{
+    color: grey;
+}
+#yt-player{
+    width: 60vw;
+    margin: 0 auto;
+    position: relative;
+    left: 5%;
+    height: 70vh;
+}
